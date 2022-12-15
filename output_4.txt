@@ -1,0 +1,50 @@
+Worker-writer 1 examined Element[0] -> 10
+ Element[2] -> 8 failed examination by worker-reader 1
+Worker-writer 1 examined Element[3] -> 7
+Worker-writer 1 examined Element[0] -> 7
+Worker-writer 1 examined Element[2] -> 11
+ Element[1] -> 2 failed examination by worker-reader 1
+Worker-writer 1 examined Element[0] -> 8
+Worker-writer 1 examined Element[3] -> 10
+ Element[1] -> 2 failed examination by worker-reader 1
+Worker-writer 1 examined Element[2] -> 16
+Worker-writer 1 examined Element[2] -> 16
+Worker-writer 1 examined Element[1] -> 8
+Worker-writer 1 examined Element[0] -> 19
+ Element[3] -> 10 passed examination by worker-reader 1
+Worker-writer 2 examined Element[3] -> 26
+Worker-writer 1 examined Element[0] -> 8
+Worker-writer 1 examined Element[2] -> 11
+ Element[3] -> 26 passed examination by worker-reader 2
+ Element[1] -> 8 failed examination by worker-reader 1
+Worker-writer 3 examined Element[3] -> 51
+Worker-writer 1 examined Element[1] -> 18
+Worker-writer 1 examined Element[2] -> 19
+ Element[3] -> 51 passed examination by worker-reader 3
+ Element[2] -> 19 passed examination by worker-reader 1
+Worker-writer 2 examined Element[2] -> 19
+Worker-writer 1 examined Element[0] -> 8
+Worker-writer 1 examined Element[0] -> 8
+Worker-writer 2 examined Element[2] -> 30
+Worker-writer 1 examined Element[1] -> 6
+Worker-writer 1 examined Element[0] -> 13
+ Element[2] -> 30 passed examination by worker-reader 2
+ Element[0] -> 13 passed examination by worker-reader 1
+Worker-writer 3 examined Element[2] -> 43
+Worker-writer 2 examined Element[0] -> 26
+Worker-writer 1 examined Element[1] -> 10
+Worker-writer 1 examined Element[1] -> 10
+ Element[0] -> 26 passed examination by worker-reader 2
+ Element[2] -> 43 passed examination by worker-reader 3
+ Element[1] -> 10 passed examination by worker-reader 1
+Worker-writer 3 examined Element[0] -> 41
+Worker-writer 2 examined Element[1] -> 19
+ Element[0] -> 41 passed examination by worker-reader 3
+ Element[1] -> 19 failed examination by worker-reader 2
+Worker-writer 2 examined Element[1] -> 18
+Worker-writer 2 examined Element[1] -> 25
+ Element[1] -> 25 passed examination by worker-reader 2
+Worker-writer 3 examined Element[1] -> 48
+ Element[1] -> 48 passed examination by worker-reader 3
+
+Process has finished!
